@@ -1,0 +1,125 @@
+.interface{
+    display: flex;
+    gap: 70px;
+   justify-content: center;
+   align-items: center;
+  
+    
+   
+}
+.grid{
+   
+    width: 612px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+h2{
+    display: inline;
+    
+}
+.square{
+    width: 170px;
+    height: 170px;
+    border: black 2px solid;
+}
+
+
+.mole{
+    background:url("mario.jpg");
+    background-position: center;
+    background-size:170px;
+    object-fit: cover;
+}
+.play-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.play-btn button{
+    width: 90px;
+    background-color: blueviolet;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+@media (max-width:1500px){
+    .square{
+        width: 160px;
+        height: 160px;
+
+    }
+    .grid{
+        margin-top: 70px;
+    }
+        .mole{
+            
+            background-size:160px;
+    }
+}
+@media (max-width:1200px){
+    .grid{
+        margin-top: 100px;
+        width: 512px;
+        display: flex;
+    }
+    .square{
+        width: 140px;
+        height: 140px;
+    }
+    .mole{
+            
+        background-size:140px;}
+}
+@media (max-width:1000px){
+    .interface{
+       
+        gap: 30px; ;
+    }
+}
+@media (max-width:800px){
+   .interface{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 100px;
+   }
+   .grid{
+       margin-left: 50px;
+       margin-top: 0;
+       width: 400px;
+   }
+   .square{
+    width: 120px;
+    height: 120px;
+}
+.mole{
+            
+    background-size:120px;}
+    
+}
+
+
+
+@media (max-width:600px){
+    .grid{
+       
+        width: 382px;
+    }
+    .square{
+        width: 100px;
+        height: 100px 
+    }
+        .mole{
+            
+            background-size:120px;}
+    
+}
+
