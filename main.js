@@ -51,7 +51,7 @@ let timerid
             alert("GAME OVER, YOUR CURRENT SCORE :"+result)
         }
         
-        currentTime=5
+        currentTime=15
         timeleft.textContent=currentTime
         result=0
         score.textContent=result
